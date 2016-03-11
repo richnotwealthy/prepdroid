@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="maroon">#800000</color>
+    <color name="faded_maroon">#80A64C4C</color>
+    <color name="white">#FFFFFF</color>
+	<color name="dark_gray">#606060</color>
+    
+</resources>

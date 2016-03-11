@@ -1,0 +1,86 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarItemBackground">@drawable/selectable_background_marooncompat</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Marooncompat</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Marooncompat</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Marooncompat</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Marooncompat</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_marooncompat</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_marooncompat</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Marooncompat</item>
+
+        <!-- Light.DarkActionBar specific -->
+        <item name="actionBarWidgetTheme">@style/Theme.Marooncompat.Widget</item>
+    </style>
+
+    <style name="ActionBar.Solid.Marooncompat" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_marooncompat</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_marooncompat</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_marooncompat</item>
+        <item name="progressBarStyle">@style/ProgressBar.Marooncompat</item>
+    </style>
+
+    <style name="PopupMenu.Marooncompat" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_marooncompat</item>
+    </style>
+
+    <style name="DropDownListView.Marooncompat" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_marooncompat</item>
+    </style>
+
+    <style name="DropDownNav.Marooncompat" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_marooncompat</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_marooncompat</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_marooncompat</item>
+    </style>
+
+    <style name="ProgressBar.Marooncompat" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_marooncompat</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Marooncompat" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_marooncompat</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Marooncompat.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Marooncompat</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Marooncompat</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:editTextBackground">@drawable/maroonholocolors_edit_text_holo_light</item>
+        <item name="android:textColorHighlight">#99800000</item>
+        <item name="android:textSelectHandleLeft">@drawable/maroonholocolors_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/maroonholocolors_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/maroonholocolors_text_select_handle_middle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewMaroonHoloColors</item>
+        <item name="android:buttonStyle">@style/ButtonMaroonHoloColors</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonMaroonHoloColors</item>
+    </style>
+
+    <style name="AppDialogTheme" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
+        <item name="android:textColorHighlight">#99800000</item>
+        <item name="android:textSelectHandleLeft">@drawable/maroonholocolors_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/maroonholocolors_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/maroonholocolors_text_select_handle_middle</item>
+    </style>
+
+    <style name="AutoCompleteTextViewMaroonHoloColors" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/maroonholocolors_list_selector_holo_light</item>
+        <item name="android:background">@drawable/maroonholocolors_edit_text_holo_light</item>
+    </style>
+
+    <style name="ButtonMaroonHoloColors" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/maroonholocolors_btn_default_holo_light</item>
+    </style>
+
+    <style name="ImageButtonMaroonHoloColors" parent="android:Widget.Holo.Light.ImageButton">
+        <item name="android:background">@drawable/maroonholocolors_btn_default_holo_light</item>
+    </style>
+
+</resources>
