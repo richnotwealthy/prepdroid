@@ -1,2 +1,6 @@
 # Prepdroid_AndroidApp
-The first Android app I ever released. The apk is available for download at https://play.google.com/store/apps/details?id=com.yolasite.rivyze.prepdroid
+My first Android application, made to be used by students at St. Peter's Prep, Jersey City, NJ.
+The apk is available for download at:
+https://play.google.com/store/apps/details?id=com.yolasite.rivyze.prepdroid
+
+--Richie
