@@ -1,4 +1,4 @@
-# Prepdroid_AndroidApp
+# Prepdroid
 My first application, made to be used by students at St. Peter's Prep, Jersey City, NJ.
 
 I made this when I first got interested in programming. It was my very first personal project. I actually built the entire thing during finals week of my junior year in high school, 2014.
